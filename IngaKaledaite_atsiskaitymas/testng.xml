@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Atsiskaitymas" verbose="1" >
+    <test name="Eurovaistine" >
+        <classes>
+            <class name="tests.Register" />
+            <class name="tests.AddToCart" />
+
+        </classes>
+    </test>
+</suite>
